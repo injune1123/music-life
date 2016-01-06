@@ -1,0 +1,14 @@
+VIEW
+-1st welcome page using typed.js
+-2nd main page: input field
+-3rd page, the finished journal
+
+musical part 
+
+
+
+
+
+
+
+
