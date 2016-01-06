@@ -1,3 +1,41 @@
+html { width:100%; height:100%; margin:0; padding:0; }
+body { width:100%; height:100%; margin:0; padding:0; }
+
+h1 {
+    font-size: 60px;
+}
+
+
+#newDiaryTitle,#newDiaryContent{
+    padding-top: 5%;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+#saveNewDiaryButton{
+    margin: auto;
+        display: block;
+ 
+}
+#typed{
+color:white;
+padding-left: 10%;
+font-size: 40px;
+font-style: italic;
+}
+
+#coverPage{
+height:100vh;
+background-image: url(coverPage.jpeg);
+background-size: cover;
+}
+
+#diaryPage{
+    height:100vh;
+background-image: url(write.jpeg);
+background-size: cover;
+
+}
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -111,6 +149,3 @@
     }
 }
 
-h1 {
-    font-size: 60px;
-}

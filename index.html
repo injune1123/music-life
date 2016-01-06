@@ -11,11 +11,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     <script type="text/javascript" src="sound.js"></script>
     <link href="styles.css" rel="stylesheet" />
+        <script type="text/javascript" src="alphabet.js"></script>
+
 </head>
 
+
 <body>
-    <h1>Record your day</h1>
-    <div class="type-wrap">
+<div id="coverPage">
+  <canvas id="myCanvas"></canvas>
+    <!-- <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>-->
+    <script type="text/javascript" src="bubbles.js"></script>
+    <script type="text/javascript" src="mainTyped.js"></script>    <div class="type-wrap">
         <div id="typed-strings">
             <p>You can write journals with <strong>sound</strong>.</p>
             <p>You hear the <em>notes</em> when you type.</p>
@@ -25,16 +31,35 @@
         </div>
         <span id="typed" style="white-space:pre;" ></span>
     </div>
-    <br/>
-    <br/>
+    </div>
+
+<div id="diaryPage">
+
     <form action="">
-        <input type="text" name="title" placeholder="title" class="form-control">
-        <br>
-        <textarea name="content" placeholder="content" class="form-control" rows="13"></textarea>
+    <div id= "newDiaryTitle">
+        <input type="text" name="title" placeholder="title" class="form-control" >
+        </div>
+        
+    <div id= "newDiaryContent">
+
+        <textarea name="content" placeholder="content" class="form-control" rows="23" ></textarea>
+    </div>
         <br/>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" id="saveNewDiaryButton">Submit</button>
     </form>
-    <audio src="sound/68448__pinkyfinger__piano-g.wav" id="piano-g">
+</div>
+    <audio src="sound/68437__pinkyfinger__piano-a.wav" id="piano-a">
+    <audio src="sound/68438__pinkyfinger__piano-b.wav" id="piano-b">
+    <audio src="sound/68439__pinkyfinger__piano-bb.wav" id="piano-bb">
+    <audio src="sound/68440__pinkyfinger__piano-c.wav" id="piano-c">
+    <audio src="sound/68441__pinkyfinger__piano-cc.wav" id="piano-cc">
+    <audio src="sound/68442__pinkyfinger__piano-d.wav" id="piano-d">
+    <audio src="sound/68443__pinkyfinger__piano-e.wav" id="piano-e">
+    <audio src="sound/68444__pinkyfinger__piano-eb.wav" id="piano-eb">
+    <audio src="sound/68445__pinkyfinger__piano-f.wav" id="piano-f">
+    <audio src="sound/68446__pinkyfinger__piano-ff.wav" id="piano-ff">
+    <audio src="sound/68447__pinkyfinger__piano-g.wav" id="piano-g">
+    <audio src="sound/68448__pinkyfinger__piano-gg.wav" id="piano-gg">
     </audio>
 </body>
 
